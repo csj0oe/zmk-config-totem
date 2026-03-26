@@ -13,18 +13,16 @@ draw_config:
   outer_pad_h: 28
   append_colon_to_layer_header: false
   svg_extra_style: |
-    svg { background: #1e1e2e; }
-    rect.key { fill: #313244; stroke: #45475a; }
-    text { font-family: "JetBrains Mono", "Fira Code", monospace; fill: #cdd6f4; }
-    text.tap   { font-size: 11px; font-weight: bold; fill: #cdd6f4; }
-    text.tl    { font-size: 7px;  fill: #89b4fa; }
-    text.tr    { font-size: 7px;  fill: #a6e3a1; }
-    text.left  { font-size: 7px;  fill: #fab387; }
-    text.right { font-size: 7px;  fill: #cba6f7; }
-    text.bl    { font-size: 7px;  fill: #f9e2af; }
-    text.br    { font-size: 7px;  fill: #f38ba8; }
-    text.hold  { font-size: 7px;  fill: #6c7086; }
-    .layer-header text { font-size: 13px; fill: #cdd6f4; font-weight: bold; }
+    text { font-family: "JetBrains Mono", "Fira Code", monospace; }
+    text.tap   { font-size: 11px; font-weight: bold; }
+    text.tl    { font-size: 7px;  fill: #2563eb; }
+    text.tr    { font-size: 7px;  fill: #16a34a; }
+    text.left  { font-size: 7px;  fill: #ea580c; }
+    text.right { font-size: 7px;  fill: #7c3aed; }
+    text.bl    { font-size: 7px;  fill: #ca8a04; }
+    text.br    { font-size: 7px;  fill: #dc2626; }
+    text.hold  { font-size: 7px;  fill: #9ca3af; }
+    .layer-header text { font-size: 13px; font-weight: bold; }
 
 layers:
   # Legend positions:
