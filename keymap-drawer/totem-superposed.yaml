@@ -2,18 +2,8 @@ layout:
   dts_layout: config/boards/shields/totem/totem.dtsi
 
 draw_config:
-  key_w: 72
-  key_h: 68
-  split_gap: 36
-  key_rx: 6
-  key_ry: 6
-  inner_pad_w: 2
-  inner_pad_h: 2
-  outer_pad_w: 28
-  outer_pad_h: 28
   append_colon_to_layer_header: false
   svg_extra_style: |
-    text { font-family: "JetBrains Mono", "Fira Code", monospace; }
     text.tap   { font-size: 11px; font-weight: bold; }
     text.tl    { font-size: 7px;  fill: #2563eb; }
     text.tr    { font-size: 7px;  fill: #16a34a; }
