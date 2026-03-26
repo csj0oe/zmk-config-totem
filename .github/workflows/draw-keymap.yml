@@ -45,9 +45,9 @@ jobs:
             keymap-drawer/totem-superposed.yaml \
             -o keymap-drawer/totem-superposed.svg
 
-      # ── Commit results ────────────────────────────────────────────────────
-      - name: Commit diagrams
-        uses: stefanzweifel/git-auto-commit-action@v5
+      # ── Upload as artifact ───────────────────────────────────────────────
+      - name: Upload diagrams
+        uses: actions/upload-artifact@v4
         with:
-          commit_message: "[Draw] ${{ github.event.head_commit.message }}"
-          file_pattern: "keymap-drawer/*.svg keymap-drawer/totem.yaml"
+          name: keymap-diagrams
+          path: keymap-drawer/*.svg
